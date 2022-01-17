@@ -1,4 +1,4 @@
-// 3. ÄÚµå¿¡¼­ pSwap ÇÔ¼ö¸¦ Point ±¸Á¶Ã¼¿¡ Áý¾î³Ö¾î º¸¼¼¿ä
+// 3. ì½”ë“œì—ì„œ pSwap í•¨ìˆ˜ë¥¼ Point êµ¬ì¡°ì²´ì— ì§‘ì–´ë„£ì–´ ë³´ì„¸ìš”
 
 #include <stdio.h>
 
