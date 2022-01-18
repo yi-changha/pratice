@@ -1,13 +1,14 @@
-// ·¹ÆÛ·±½º º¯¼ö
+// ë ˆí¼ëŸ°ìŠ¤ ë³€ìˆ˜
 
 #include <iostream>
 
 using namespace std;
 
 int main() {
-	// r-value : ¼öÁ¤ °¡´ÉÇÑ °ª, l-value : ¼öÁ¤ ºÒ°¡´ÉÇÑ °ª.
+	// r-value : ìˆ˜ì • ê°€ëŠ¥í•œ ê°’, l-value : ìˆ˜ì • ë¶ˆê°€ëŠ¥í•œ ê°’.
 
 	int a(5);
+	int &r1 = a;
 	int &&r2 = 3;
 	int &&r3 = a * a;
 
