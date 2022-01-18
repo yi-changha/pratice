@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 
-	// std : ¼º(ÀÌ¸§) name space(ÀÌ¸§ °ø°£) 
-	// cout : << ·Î µ¥ÀÌÅÍ ºĞ¸®
-	// end : end line, ÁÙ¹Ù²Ş
+	// std : ì„±(ì´ë¦„) name space(ì´ë¦„ ê³µê°„) 
+	// cout : << ë¡œ ë°ì´í„° ë¶„ë¦¬
+	// end : end line, ì¤„ë°”ê¿ˆ
 //	std::cout << "Hello, World!" << std::endl;
 
 	cout << "Hello, World!" << endl;
