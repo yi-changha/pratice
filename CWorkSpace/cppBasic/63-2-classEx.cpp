@@ -1,12 +1,12 @@
 /*
-1. ¾Æ·¡ÀÇ GameWindow Å¬·¡½ºÀÇ ÄÚµå¿¡¼­ Ã¢ ³Êºñ¿Í ³ôÀÌ¸¦ ¸Å°³º¯¼ö·Î ¹Þ´Â
- ResizeWindow ÇÔ¼ö¸¦ Ãß°¡ÇÏ¿© ´ÙÀ½ Á¶°Ç°ú °°ÀÌ width¿Í heightÀÇ °ªÀ» ¹Ù²Ù¼¼¿ä.
-	- µé¾î¿Â ¸Å°³º¯¼öÀÇ °ª°ú ÀÏÄ¡ÇÏµµ·Ï Ã¢ Å©±â¸¦ ¼³Á¤ÇÒ °Í.
-	- ³Êºñ°¡ 800º¸´Ù ÀÛ°Å³ª ³ôÀÌ°¡ 600º¸´Ù ÀÛÀ» ¶§´Â °¢°¢ 800, 600À¸·Î ¼³Á¤ÇÒ °Í.
+1. ì•„ëž˜ì˜ GameWindow í´ëž˜ìŠ¤ì˜ ì½”ë“œì—ì„œ ì°½ ë„ˆë¹„ì™€ ë†’ì´ë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ëŠ”
+ ResizeWindow í•¨ìˆ˜ë¥¼ ì¶”ê°€í•˜ì—¬ ë‹¤ìŒ ì¡°ê±´ê³¼ ê°™ì´ widthì™€ heightì˜ ê°’ì„ ë°”ê¾¸ì„¸ìš”.
+	- ë“¤ì–´ì˜¨ ë§¤ê°œë³€ìˆ˜ì˜ ê°’ê³¼ ì¼ì¹˜í•˜ë„ë¡ ì°½ í¬ê¸°ë¥¼ ì„¤ì •í•  ê²ƒ.
+	- ë„ˆë¹„ê°€ 800ë³´ë‹¤ ìž‘ê±°ë‚˜ ë†’ì´ê°€ 600ë³´ë‹¤ ìž‘ì„ ë•ŒëŠ” ê°ê° 800, 600ìœ¼ë¡œ ì„¤ì •í•  ê²ƒ.
 
-2. GameWindow::GameWindow(int w, int h) »ý¼ºÀÚµµ ¸¶Âù°¡Áö·Î 2¹øÀÇ Á¶°ÇÀ» Á¶°ÇÀ» ¸¸Á·ÇÏµµ·Ï ¼öÁ¤.
+2. GameWindow::GameWindow(int w, int h) ìƒì„±ìžë„ ë§ˆì°¬ê°€ì§€ë¡œ 2ë²ˆì˜ ì¡°ê±´ì„ ì¡°ê±´ì„ ë§Œì¡±í•˜ë„ë¡ ìˆ˜ì •.
 
-3. ÀÛ¼ºÇÑ ÄÚµå¿¡¼­ »ó¼öÈ­°¡ °¡´ÉÇÑ ºÎºÐÀ» ¸ðµÎ »ó¼öÈ­.
+3. ìž‘ì„±í•œ ì½”ë“œì—ì„œ ìƒìˆ˜í™”ê°€ ê°€ëŠ¥í•œ ë¶€ë¶„ì„ ëª¨ë‘ ìƒìˆ˜í™”.
 */
 
 #include <iostream>
@@ -15,7 +15,7 @@ using namespace std;
 
 class GameWindow {
 public:
-	GameWindow();	// »ý¼ºÀÚ const ºÒ°¡
+	GameWindow();	// ìƒì„±ìž const ë¶ˆê°€
 	GameWindow(const int, const int);
 
 	int GetWidth() const;
