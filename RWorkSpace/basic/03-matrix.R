@@ -1,11 +1,11 @@
-# matrix(Çà·Ä)
-# µ¥ÀÌÅÍÀÇ ÇüÅÂ°¡ 2Â÷¿øÀ¸·Î Çà(row)°ú ¿­(column)·Î ±¸¼º
-# ÇÏ³ªÀÇ µ¥ÀÌÅÍ À¯Çü¸¸ °¡´É, ¿ªÇà·ÄÀº solve()·Î ±¸ÇÔ
+# matrix(í–‰ë ¬)
+# ë°ì´í„°ì˜ í˜•íƒœê°€ 2ì°¨ì›ìœ¼ë¡œ í–‰(row)ê³¼ ì—´(column)ë¡œ êµ¬ì„±
+# í•˜ë‚˜ì˜ ë°ì´í„° ìœ í˜•ë§Œ ê°€ëŠ¥, ì—­í–‰ë ¬ì€ solve()ë¡œ êµ¬í•¨
 
-# Çà·Ä »ý¼º ÇÔ¼ö
+# í–‰ë ¬ ìƒì„± í•¨ìˆ˜
 # matrix(data=NA, nrow = 1, ncol=1, byrow=FALSE, dimnames=NULL)
-#  byrow : °ªÀÇ ÀÔ·Â ¹æÇâ '¿­'ÀÌ¸ç, TRUE·Î ÁöÁ¤ ½Ã 'Çà' ¹æÇâÀ¸·Î º¯°æµÊ.
-#  dimnames : °¢ Â÷¿øÀÇ ÀÌ¸§
+#  byrow : ê°’ì˜ ìž…ë ¥ ë°©í–¥ 'ì—´'ì´ë©°, TRUEë¡œ ì§€ì • ì‹œ 'í–‰' ë°©í–¥ìœ¼ë¡œ ë³€ê²½ë¨.
+#  dimnames : ê° ì°¨ì›ì˜ ì´ë¦„
 # rbind(vectors or matrices), cbind(vectors or matrices) 
 
 rm(list = ls())
@@ -28,14 +28,14 @@ m3 = m[,-2]
 #  2  10
 #  3  11
 #  4  12
-m4 = m[c(2,3), 2]  # 6 7   # 2~3¹øÇàÀÇ 2¹øÂ° ¿­
-m5 = m[c(TRUE, FALSE, FALSE, TRUE),] ## 1, 4¹øÇà TRUE, ¿­Àº ¸ðµÎ
+m4 = m[c(2,3), 2]  # 6 7   # 2~3ë²ˆí–‰ì˜ 2ë²ˆì§¸ ì—´
+m5 = m[c(TRUE, FALSE, FALSE, TRUE),] ## 1, 4ë²ˆí–‰ TRUE, ì—´ì€ ëª¨ë‘
 #  1   5   9
 #  4   8  12
 
 
 rm(list=ls())
-a1 = array(1:12, dim=c(3,2,2))  # 3Çà 2¿­ÀÌ 2°³ ÀÖ´Â 3Â÷¿ø Çà·Ä
+a1 = array(1:12, dim=c(3,2,2))  # 3í–‰ 2ì—´ì´ 2ê°œ ìžˆëŠ” 3ì°¨ì› í–‰ë ¬
 a2 = array(1:6, dim =c(2,3))
 #  1   3   5
 #  2   4   6
