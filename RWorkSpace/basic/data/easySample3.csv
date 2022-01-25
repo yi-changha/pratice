@@ -1,0 +1,11 @@
+ID,pname,birth,dept,english,japanese,chinese,salary,overtime
+18030201,James Kim,1990-01-23,Education,1,1.0,0,3456,23:10:10
+18030202,Rose Hwang,1992-10-11,Marketing,0,2.0,0,4320,10:15:17
+19030401,Sam Park,1995-07-02,Education,1,0.0,0,5600,16:21:10
+19070101,Chris Jang,1990-11-23,Education,0,0.0,3,4500,15:00:20
+19070102,Grace Lee,1993-02-01,Marketing,0,0.0,0,3150,21:19:50
+19070103,Juile Yoon,1992-07-16,Education,0,0.0,1,4200,14:10:40
+19080101,Chirle Song,1993-04-11,Accounting,2,0.0,0,4800,9:50:30
+19080102,Bob Kim,1991-12-07,Sales,1,1.0,1,10100,8:40:40
+19090201,John Park,1992-06-16,Sales,3,1.0,2,6840,17:30:20
+19090202,Anne Lee,1993-05-05,Education,0,3.0,1,4750,19:50:20
