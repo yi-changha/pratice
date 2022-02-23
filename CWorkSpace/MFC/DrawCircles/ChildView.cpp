@@ -70,7 +70,9 @@ void CChildView::OnLButtonDown(UINT nFlags, CPoint point)
 
 
 void CChildView::OnMouseMove(UINT nFlags, CPoint point)
-{
+{	
+	// 마우스 캡처를 시작한다(MFC 함수 사용).
+	SetCapture();
 	// 그리기 모드이면 타원을 지우고 그리기를 반복한다.
 	if (m_bDrawMode) {
 		CClientDC dc(this);
@@ -98,4 +100,6 @@ void CChildView::OnLButtonUp(UINT nFlags, CPoint point)
 	dc.Ellipse(m_x1, m_y1, m_x2, m_y2);
 	// 그리기 모드를 끝낸다.
 	m_bDrawMode = FALSE;
+	// 마우스 캡처를 해제한다(API 함수 사용)
+	::ReleaseCapture();
 }
