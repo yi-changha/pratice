@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEApplicationFrameworkTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEApplicationFrameworkTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADECompileDefinitionsAndFlags-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEConfig.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEConfigVersion.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEDataExchangeTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEDataExchangeTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEDrawTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEDrawTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEFoundationClassesTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEFoundationClassesTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEModelingAlgorithmsTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEModelingAlgorithmsTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEModelingDataTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEModelingDataTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEVisualizationTargets-debug.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/OCCT-install/cmake/OpenCASCADEVisualizationTargets.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/CMakeLists.txt
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/build/CMakeFiles/3.23.0-rc3/CMakeCCompiler.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/build/CMakeFiles/3.23.0-rc3/CMakeCXXCompiler.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/build/CMakeFiles/3.23.0-rc3/CMakeRCCompiler.cmake
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/build/CMakeFiles/3.23.0-rc3/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake

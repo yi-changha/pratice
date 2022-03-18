@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson11_OCAF_interfaces\build\CMakeFiles\43021c7c2b3e587e8959511a74e4abb7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0DAA4A8A-FB6E-31C9-B48C-D6FD16088BFC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\OPENCASCADE-7.6.0-VC14-64\PRATICE\LESSON11_OCAF_INTERFACES\BUILD\CMAKEFILES\43021C7C2B3E587E8959511A74E4ABB7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces -BC:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson11_OCAF_interfaces/build/Lesson11_OCAF_interfaces.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

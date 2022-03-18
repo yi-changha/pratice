@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson11_OCAF_interfaces\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson11_OCAF_interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E94929E4-148B-391B-BFD9-02C6E4060D65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
