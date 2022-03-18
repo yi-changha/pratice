@@ -1,0 +1,3 @@
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson_10_OcafEx/build/CMakeFiles/Lesson_10_OcafEx.dir
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson_10_OcafEx/build/CMakeFiles/ALL_BUILD.dir
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson_10_OcafEx/build/CMakeFiles/ZERO_CHECK.dir

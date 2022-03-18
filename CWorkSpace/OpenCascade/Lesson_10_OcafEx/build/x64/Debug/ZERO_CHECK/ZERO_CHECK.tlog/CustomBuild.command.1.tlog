@@ -1,0 +1,10 @@
+^C:\OPENCASCADE-7.6.0-VC14-64\PRATICE\LESSON_10_OCAFEX\BUILD\CMAKEFILES\FE7D83CF227F17CA2C78EC6860F7343D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson_10_OcafEx -BC:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson_10_OcafEx/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson_10_OcafEx/build/Lesson_10_OcafEx.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
