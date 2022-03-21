@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson12_XDE\build\CMakeFiles\4ba124cad4464bd314f2759a2783b6f7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FDAC3F45-4093-3FC9-8240-494B71B0081F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

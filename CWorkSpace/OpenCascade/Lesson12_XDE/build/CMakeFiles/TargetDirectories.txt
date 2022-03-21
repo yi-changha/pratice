@@ -1,0 +1,3 @@
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson12_XDE/build/CMakeFiles/Lesson12_XDE.dir
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson12_XDE/build/CMakeFiles/ALL_BUILD.dir
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson12_XDE/build/CMakeFiles/ZERO_CHECK.dir
