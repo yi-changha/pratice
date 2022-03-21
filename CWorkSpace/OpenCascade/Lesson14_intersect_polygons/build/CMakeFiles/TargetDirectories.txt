@@ -1,0 +1,3 @@
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson14_intersect_polygons/build/CMakeFiles/Lesson14_intersect_polygons.dir
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson14_intersect_polygons/build/CMakeFiles/ALL_BUILD.dir
+C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson14_intersect_polygons/build/CMakeFiles/ZERO_CHECK.dir

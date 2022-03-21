@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson14_intersect_polygons\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson14_intersect_polygons\Viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson14_intersect_polygons\ViewerInteractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson14_intersect_polygons\Viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson14_intersect_polygons\ViewerInteractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OpenCASCADE-7.6.0-vc14-64\pratice\Lesson14_intersect_polygons\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9062237D-7F01-3589-BC2B-576480562F6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D90BD99A-2DAF-32E7-A4A7-F635E85F8347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

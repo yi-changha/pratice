@@ -1,0 +1,10 @@
+^C:\OPENCASCADE-7.6.0-VC14-64\PRATICE\LESSON14_INTERSECT_POLYGONS\BUILD\CMAKEFILES\2A4F4EB66B28BA1D9ADE021DEB11A826\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson14_intersect_polygons -BC:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson14_intersect_polygons/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/OpenCASCADE-7.6.0-vc14-64/pratice/Lesson14_intersect_polygons/build/Lesson14_intersect_polygons.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
