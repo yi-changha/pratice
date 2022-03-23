@@ -1,4 +1,4 @@
-// OpenCASCADE Ʃ�丮�� by ��â��
+// OpenCASCADE 튜토리얼 by 이창하
 // 22.03.23
 
 #ifndef CHAPTER1_BASICS_INC_LINEPLANEINTERSECTION_HPP_
