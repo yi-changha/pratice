@@ -1,6 +1,7 @@
-#include "Viewer.h"
-
-// OCC
+/*
+Open CASCADE 튜토리얼 by 이창하
+2022.03.24
+*/
 
 #include "Viewer.h"
 
