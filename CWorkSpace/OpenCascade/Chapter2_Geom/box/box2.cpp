@@ -1,10 +1,6 @@
 #include "Viewer.h"
 
 // OCC
-
-#include "Viewer.h"
-
-// OCC
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepTools.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
