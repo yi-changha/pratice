@@ -1,15 +1,15 @@
 /*
-OpenCASCADE Æ©Åä¸®¾ó by ÀÌÃ¢ÇÏ
+OpenCASCADE íŠœí† ë¦¬ì–¼ by ì´ì°½í•˜
 2022.03.22
-»ï°¢Çü ±×¸®±â
+ì‚¼ê°í˜• ê·¸ë¦¬ê¸°
 */
 
-#define _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES_
 #include <iostream>
 #include <cmath>
 using namespace std;
 
-// Open CASCADE¸¦ È°¿ëÇØ¼­ ¸¸µç Çì´õÆÄÀÏ
+// Open CASCADEë¥¼ í™œìš©í•´ì„œ ë§Œë“  í—¤ë”íŒŒì¼
 #include "PointOnCurveDistributor.hpp"
 #include "WriteCoordinatesToFile.hpp"
 #include "AreaCalculations.hpp"
@@ -17,23 +17,23 @@ using namespace std;
 
 int main(int argc, char* argv[1]) {
 
-	// ¿ø »ı¼º
-	gp_Pnt centerPoint(5.0, 5.0, 0.0);	// Áß½ÉÁ¡
+	// ì› ìƒì„±
+	gp_Pnt centerPoint(5.0, 5.0, 0.0);	// ì¤‘ì‹¬ì 
 	gp_Dir xDirection(1.0, 0.0, 0.0);
 	gp_Dir zDirection(0.0, 0.0, 1.0);
-	gp_Ax2 axis(centerPoint, zDirection, xDirection); // (Áß½ÉÁ¡, normal direction(Æò¸é ¹æÇâ), xÃà)
+	gp_Ax2 axis(centerPoint, zDirection, xDirection); // (ì¤‘ì‹¬ì , normal direction(í‰ë©´ ë°©í–¥), xì¶•)
 	gp_Circ circle(axis, 5);
 	Standard_Integer resolution = 20;
 
-	// 500ÀÇ ¿ä¼Ò¿Í ÇÔ²² ÇÒ´çµÊ. index´Â 0~499°¡ ¾Æ´Ñ 1~500.
+	// 500ì˜ ìš”ì†Œì™€ í•¨ê»˜ í• ë‹¹ë¨. indexëŠ” 0~499ê°€ ì•„ë‹Œ 1~500.
 	TColgp_Array1OfPnt pointsOnCircle(1, resolution);
 
-	// Á¡µéÀ» ºĞ»êÇÏ¿© ÆÄÀÏ¿¡ ±âÀÔ
+	// ì ë“¤ì„ ë¶„ì‚°í•˜ì—¬ íŒŒì¼ì— ê¸°ì…
 	PointOnCurveDistribution::distributePointsOnCurve(circle, pointsOnCircle, 0.0, 2.0 * M_PI, resolution);
 	WriteCoordinatesToFile::writeCoordinatesToFile("triangle.txt", pointsOnCircle);
 	
-	// ÀÛÀº »ï°¢ÇüµéÀÇ ¸éÀûÀ» ÇÕ»êÇÏ¿© ´ë·«ÀûÀÎ ¸éÀû ±¸ÇÔ.
-	// for¹®À¸·Î ¿øÁÖ ¹× ¿øÀÇ Áß½É, µÎ ¸ğ¼­¸®¸¦ ¼¼ Á¡À¸·Î °¡Áø »ï°¢ÇüÀ» »ı¼º.
+	// ì‘ì€ ì‚¼ê°í˜•ë“¤ì˜ ë©´ì ì„ í•©ì‚°í•˜ì—¬ ëŒ€ëµì ì¸ ë©´ì  êµ¬í•¨.
+	// forë¬¸ìœ¼ë¡œ ì›ì£¼ ë° ì›ì˜ ì¤‘ì‹¬, ë‘ ëª¨ì„œë¦¬ë¥¼ ì„¸ ì ìœ¼ë¡œ ê°€ì§„ ì‚¼ê°í˜•ì„ ìƒì„±.
 	double totalArea = 0.0;
 	for (Standard_Integer i = 1; i <= resolution; i++) {
 		gp_Pnt firstPntOfTriangle = pointsOnCircle.Value(i);
@@ -41,13 +41,13 @@ int main(int argc, char* argv[1]) {
 		if (i != resolution) {
 			secondPntofTriangle = pointsOnCircle.Value(i + 1);
 		}
-		else	// ³¡¿¡ µµ´ŞÇÏ¸é Ã¹ ¹øÂ° Á¡À» °ªÀ» °¡Á®°¡°Ô²û Ã³¸®
+		else	// ëì— ë„ë‹¬í•˜ë©´ ì²« ë²ˆì§¸ ì ì„ ê°’ì„ ê°€ì ¸ê°€ê²Œë” ì²˜ë¦¬
 		{
 			secondPntofTriangle = pointsOnCircle.Value(1);
 		}
 		gp_Pnt thirdPntOfTriangle = centerPoint;
 
-		// ÇÚµé(½º¸¶Æ® Æ÷ÀÎÅÍ °°Àº)ÀÌ Æ÷ÀÎÆ® ¹è¿­¿¡ ±¸ÃàµÇ¾î ÀÖÀ½.
+		// í•¸ë“¤(ìŠ¤ë§ˆíŠ¸ í¬ì¸í„° ê°™ì€)ì´ í¬ì¸íŠ¸ ë°°ì—´ì— êµ¬ì¶•ë˜ì–´ ìˆìŒ.
 		Handle_TColgp_HArray1OfPnt trianglePointsArray = new TColgp_HArray1OfPnt(1, 3);
 		trianglePointsArray->ChangeValue(1) = firstPntOfTriangle;
 		trianglePointsArray->ChangeValue(2) = secondPntofTriangle;
@@ -55,10 +55,10 @@ int main(int argc, char* argv[1]) {
 		totalArea += AreaCalculations::calculateTriangleArea(trianglePointsArray);
 	}
 
-	cout << "»ï°¢ÇüÀ¸·Î °è»êÇÑ ¿øÀÇ ¸éÀû : " << totalArea << endl;
-	cout << "¿ø·¡ ¿øÀÇ ¸éÀû : " << circle.Area() << endl;
-	cout << "Â÷ÀÌ³ª´Â ¸éÀû : " << fabs(totalArea - circle.Area()) << endl;
-	cout << "Á¤È®µµ : " << 1 - (fabs(totalArea - circle.Area()) / circle.Area()) << endl;
+	cout << "ì‚¼ê°í˜•ìœ¼ë¡œ ê³„ì‚°í•œ ì›ì˜ ë©´ì  : " << totalArea << endl;
+	cout << "ì›ë˜ ì›ì˜ ë©´ì  : " << circle.Area() << endl;
+	cout << "ì°¨ì´ë‚˜ëŠ” ë©´ì  : " << fabs(totalArea - circle.Area()) << endl;
+	cout << "ì •í™•ë„ : " << 1 - (fabs(totalArea - circle.Area()) / circle.Area()) << endl;
 	
 
 	return 0;
