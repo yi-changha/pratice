@@ -1,6 +1,7 @@
 /*
-Open CASCADE Æ©Åä¸®¾ó
-Cone ¿ø»Ô
+Open CASCADE íŠœí† ë¦¬ì–¼ by ì´ì°½í•˜
+2022.03.24
+Cone ì›ë¿”
 */
 #include "Viewer.h"
 
@@ -19,7 +20,7 @@ int main(int argc, char** argv)
 	yAxis.SetLocation(gp_Pnt(10.0, 10.0, 0.0));
 
 	TopoDS_Shape cone = BRepPrimAPI_MakeCone(yAxis, 5.0, 1.0, 10.0).Shape();
-	// Cone(gp_Ax2 Áß½ÉÃà, ¾Æ·¡ ¹İÁö¸§, À§ ¹İÁö¸§, ³ôÀÌ)
+	// Cone(gp_Ax2 ì¤‘ì‹¬ì¶•, ì•„ë˜ ë°˜ì§€ë¦„, ìœ„ ë°˜ì§€ë¦„, ë†’ì´)
 
 
 	vout << cone;
