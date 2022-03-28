@@ -1,5 +1,8 @@
-이 폴더는 C/C++를 연습하는 폴더입니다. \
-basic과 cppBasic은 C/C++ 기본 문법을 공부한 폴더입니다. \
-boj는 Baekjoon Online Judge 문제 풀이입니다.\
-MFC는 MFC에 대해 공부한 폴더입니다.\
-OpenCascade는 3D CAD, CAM, CAE 개발을 위해 OCC에 대해 공부한 폴더입니다.
+## CWorkSpace의 구성
++ Basic : C 언어 기본 문법
++ MFC : MFC C++용 프로그램 라이브러리
++ OpenCascade : 3D CAD, CAM, CAE을 등을 위한 소프트웨어 개발 플렛폼
++ boj : bakjoon 예제문제 풀이
++ cppBasic : C++ 언어 기본 문법
++ example : c, c++을 이용한 예제 풀이
+<br/>
