@@ -9,7 +9,18 @@
 + example : c, c++을 이용한 예제 풀이
 <br/>
 ## PythonWorkSpace의 구성
-+ MLDL : 
-CWorkSpace 에서는 C/C++을 연습하였습니다.\
-RWorkSpace 에서는 R을 통한 데이터 분석을 연습하였습니다.\
-project 은 학습한 언어들을 활용해 여러 프로그램을 만들어보는 폴더입니다.
++ MLDL : Machine learning, Deep learning
++ Matplotlib : 데이터 시각화를 위한 라이브러리
++ OpenCV : 컴퓨터 비전, 이미지 처리를 위한 라이브러리
++ Pandas : 정형 데이터 활용을 위한 라이브러리
++ gui : tkinter를 통한 인터페이스 구성
++ project : Pandas와 Matplotlib을 이용한 데이터 분석, 데이터 가시화 
+<br/>
+
+## RWorkSpace의 구성
++ example : R을 통한 데이터 분석 연습
+<br/>
+
+## project
++ 컴퓨터비전 실습
+<br/>
