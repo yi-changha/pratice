@@ -1,6 +1,5 @@
 # Pratice 
 목적 : 이 곳은 연습을 위해 쓰이고 있습니다. \
-\
 ## CWorkSpace의 구성
 + Basic : C 언어 기본 문법
 + MFC : MFC C++용 프로그램 라이브러리
@@ -9,7 +8,6 @@
 + cppBasic : C++ 언어 기본 문법
 + example : c, c++을 이용한 예제 풀이
 <br/>
-\
 ## PythonWorkSpace의 구성
 + MLDL : 
 CWorkSpace 에서는 C/C++을 연습하였습니다.\
