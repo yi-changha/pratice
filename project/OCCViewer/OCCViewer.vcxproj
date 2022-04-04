@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{7BFB21B2-BAB5-443A-B8AD-86626E79DDDD}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>OCCViewer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKernel.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKMath.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKG2d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKG3d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKGeomBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBRep.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKGeomAlgo.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTopAlgo.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKPrim.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBO.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKShHealing.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBool.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKHLR.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKFillet.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKOffset.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKFeat.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKService.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKV3d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKOpenGl.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKMeshVS.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKCDF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKLCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBinL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXmlL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBin.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXml.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKStdL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKStd.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBinTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXmlTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKVCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXSBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEPBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEPAttr.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEP209.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEP.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKIGES.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXDEIGES.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXDESTEP.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKVRML.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXmlXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBinXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKRWMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKDraw.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTopTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKOpenGlTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKViewerTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXSDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKDCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXDEDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTObjDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKQADraw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKernel.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKMath.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKG2d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKG3d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKGeomBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBRep.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKGeomAlgo.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTopAlgo.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKPrim.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBO.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKShHealing.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBool.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKHLR.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKFillet.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKOffset.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKFeat.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKService.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKV3d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKOpenGl.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKMeshVS.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKCDF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKLCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBinL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXmlL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBin.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXml.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKStdL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKStd.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBinTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXmlTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKVCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXSBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEPBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEPAttr.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEP209.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTEP.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKIGES.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXDEIGES.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXDESTEP.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKSTL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKVRML.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXmlXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKBinXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKRWMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKDraw.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTopTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKOpenGlTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKViewerTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXSDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKDCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKXDEDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKTObjDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\libd\TKQADraw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_OPENGL_EXT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UseFullPaths>false</UseFullPaths>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKernel.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKMath.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKG2d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKG3d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKGeomBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBRep.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKGeomAlgo.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKTopAlgo.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKPrim.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBO.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKShHealing.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBool.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKHLR.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKFillet.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKOffset.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKFeat.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKService.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKV3d.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKOpenGl.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKMeshVS.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKCDF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKLCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBinL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXmlL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBin.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXml.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKStdL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKStd.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBinTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXmlTObj.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKVCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXSBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKSTEPBase.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKSTEPAttr.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKSTEP209.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKSTEP.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKIGES.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXDEIGES.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXDESTEP.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKSTL.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKVRML.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXmlXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKBinXCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKRWMesh.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKDraw.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKTopTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKOpenGlTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKViewerTest.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXSDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKDCAF.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKXDEDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKTObjDRAW.lib;C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\win64\vc14\lib\TKQADraw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OpenCASCADE-7.6.0-vc14-64\OCCT-install\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="IgesReader.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OCCViewer.h" />
+    <ClInclude Include="OCCViewerDoc.h" />
+    <ClInclude Include="OCCViewerView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StepReader.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="IgesReader.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OCCViewer.cpp" />
+    <ClCompile Include="OCCViewerDoc.cpp" />
+    <ClCompile Include="OCCViewerView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StepReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OCCViewer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OCCViewer.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OCCViewer.ico" />
+    <Image Include="res\OCCViewerDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
