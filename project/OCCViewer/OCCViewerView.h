@@ -7,7 +7,6 @@
 #include <V3d_View.hxx>
 
 class COCCViewerDoc;
-//class OperatorBase;
 
 class COCCViewerView : public CView
 {
