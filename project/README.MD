@@ -1,5 +1,8 @@
 # project
 목적 : 공부한 내용을 바탕으로 프로젝트를 만들어보는 곳 입니다.
+## Calculator_CSharp
++ C#을 통해 만든 기본 계산기입니다. 
++ 사칙연산과 소수점 6번째 자리까지 계산이 가능합니다
 ## OCCViewer
 + OpenCASCADE, OpenGL, MFC를 통해 만든 3D CAD파일 뷰어입니다.
 ## calculator
