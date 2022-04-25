@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\python\C\CuteCat\bin\Debug\netcoreapp3.1\CuteCat.exe
+C:\Users\USER\Desktop\python\C\CuteCat\bin\Debug\netcoreapp3.1\CuteCat.deps.json
+C:\Users\USER\Desktop\python\C\CuteCat\bin\Debug\netcoreapp3.1\CuteCat.runtimeconfig.json
+C:\Users\USER\Desktop\python\C\CuteCat\bin\Debug\netcoreapp3.1\CuteCat.runtimeconfig.dev.json
+C:\Users\USER\Desktop\python\C\CuteCat\bin\Debug\netcoreapp3.1\CuteCat.dll
+C:\Users\USER\Desktop\python\C\CuteCat\bin\Debug\netcoreapp3.1\CuteCat.pdb
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.Form1.resources
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.AssemblyInfo.cs
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.dll
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.pdb
+C:\Users\USER\Desktop\python\C\CuteCat\obj\Debug\netcoreapp3.1\CuteCat.genruntimeconfig.cache
