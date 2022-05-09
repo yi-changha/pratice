@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\python\C\TrafficLight\bin\Debug\TrafficLight.exe.config
+C:\Users\USER\Desktop\python\C\TrafficLight\bin\Debug\TrafficLight.exe
+C:\Users\USER\Desktop\python\C\TrafficLight\bin\Debug\TrafficLight.pdb
+C:\Users\USER\Desktop\python\C\TrafficLight\obj\Debug\TrafficLight.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\python\C\TrafficLight\obj\Debug\TrafficLight.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\python\C\TrafficLight\obj\Debug\TrafficLight.exe
+C:\Users\USER\Desktop\python\C\TrafficLight\obj\Debug\TrafficLight.pdb
