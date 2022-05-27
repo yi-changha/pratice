@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\CWorkSpace\Conveyor\bin\Debug\Conveyor.exe.config
+C:\Users\User\Desktop\CWorkSpace\Conveyor\bin\Debug\Conveyor.exe
+C:\Users\User\Desktop\CWorkSpace\Conveyor\bin\Debug\Conveyor.pdb
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.Form1.resources
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.Properties.Resources.resources
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.csproj.GenerateResource.cache
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.exe
+C:\Users\User\Desktop\CWorkSpace\Conveyor\obj\Debug\Conveyor.pdb
