@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\bin\Debug\WeightConversion.exe.config
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\bin\Debug\WeightConversion.exe
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\bin\Debug\WeightConversion.pdb
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConversion.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConversion.Properties.Resources.resources
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConversion.csproj.GenerateResource.cache
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConversion.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConversion.exe
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConversion.pdb
+C:\Users\User\Desktop\CWorkSpace\WeightConversion\obj\Debug\WeightConvertor.Form1.resources
